@@ -50,9 +50,9 @@ const Activities = () => {
     const [isArticleTwoOpen, setIsArticleTwoOpen] = useState(false);
     useEffect(() => {
         if (isArticleOneOpen || isArticleTwoOpen) {
-            document.body.style.overflow = 'hidden';
+            document.body.style.overflowY = 'hidden';
         } else {
-            document.body.style.overflow = 'unset';
+            document.body.style.overflowY = 'unset';
         }
     }, [isArticleOneOpen, isArticleTwoOpen]);
 
@@ -120,11 +120,21 @@ const Activities = () => {
                             <Modal show={isArticleOneOpen} closeModal={() => setIsArticleOneOpen(false)}>
                                 {
                                     articles.filter(article => article.location === ("Nebraska, USA"))
-                                        .map((article, location) => {
+                                        .map((article, id) => {
                                             return (
-                                                <div key={location} className="modals">
+                                                <div key={id} className="modals">
                                                     <img src={article.images} />
-                                                    <h1>{article.title}</h1>
+                                                    <div className="article-text">
+                                                        <h1>{article.title}</h1>
+                                                        <br />
+                                                        <h2>{article.location}</h2>
+                                                        <br />
+                                                        <h3>{article.caption}</h3>
+                                                        <br />
+                                                        <Link to={`/Activities/${article.id}`}>
+                                                            Read More
+                                                        </Link>
+                                                    </div>
                                                 </div>
                                             )
                                         })
@@ -134,11 +144,21 @@ const Activities = () => {
                             <Modal show={isArticleTwoOpen} closeModal={() => setIsArticleTwoOpen(false)}>
                                 {
                                     articles.filter(article => article.location === ("Colombo, Sri Lanka"))
-                                        .map((article, location) => {
+                                        .map((article, id) => {
                                             return (
-                                                <div key={location} className="modals">
+                                                <div key={id} className="modals">
                                                     <img src={article.images} />
-                                                    <h1>{article.title}</h1>
+                                                    <div className="article-text">
+                                                        <h1>{article.title}</h1>
+                                                        <br />
+                                                        <h2>{article.location}</h2>
+                                                        <br />
+                                                        <h3>{article.caption}</h3>
+                                                        <br />
+                                                        <Link to={`/Activities/${article.id}`}>
+                                                            Read More
+                                                        </Link>
+                                                    </div>
                                                 </div>
                                             )
                                         })

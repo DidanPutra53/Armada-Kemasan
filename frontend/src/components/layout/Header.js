@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from 'react'
-import { Logo2, ProfilePicture } from '../images'
+import { Logo2, ProfilePicture4 } from '../images'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { ImCross } from 'react-icons/im'
 import { useAlert } from 'react-alert'
@@ -27,6 +27,7 @@ const Header = () => {
     const showDropdown = () => setProfileDropdown(!profileDropdown)
 
     const logoutHandler = () => {
+        setSidebar(!sidebar)
         dispatch(logoutUser())
         alert.success('Logout Successfully')
     }
@@ -48,9 +49,9 @@ const Header = () => {
                             {
                                 user ? (
                                     <Fragment>
-                                        <a to="/">Pick Up</a>
+                                        <Link onClick={showSidebar} to="/Nearest-Point">Pick Up</Link>
                                         <Link onClick={showSidebar} to="/Activities">Activities</Link>
-                                        <a to="/">Challenges</a>
+                                        <Link onClick={showSidebar} to="/Challenges">Challenges</Link>
                                     </Fragment>
                                 ) :
                                     <Link onClick={showSidebar} to="/Activities">Activities</Link>
@@ -61,8 +62,8 @@ const Header = () => {
                     <div className="dropdown">
                         <button onClick={showAboutus}>ABOUT US</button>
                         <div className={aboutus ? "aboutus active" : "aboutus"}>
-                            <a to="/">Our Story</a>
-                            <a to="/">Our Partner</a>
+                            <Link onClick={showSidebar} to="/Our-Partnership">Our Partner</Link>
+                            <Link onClick={showSidebar} to="/Our-Story">Our Story</Link>
                             <Link onClick={showSidebar} to="/Help">FAQ</Link>
                         </div>
                     </div>
@@ -76,7 +77,7 @@ const Header = () => {
                             <div className="dropdown">
                                 <button className="button-profile" onClick={showDropdown}>
                                     <figure className="profile-picture-header">
-                                        <img src={ProfilePicture} alt="PP" className="rounded-circle" />
+                                        <img src={ProfilePicture4} alt="PP" className="rounded-circle" />
                                     </figure>
                                 </button>
                                 <div className={profileDropdown ? 'profile active' : 'profile'}>

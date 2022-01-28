@@ -2,10 +2,13 @@ import React from 'react'
 import { Fragment } from 'react'
 import GoogleMap from '../googlemap/GoogleMap'
 import MetaData from '../layout/MetaData'
+import { useAlert } from 'react-alert'
 
 const NearestPoint = ({ history }) => {
+    const alert = useAlert()
 
     const submitHandler = () => {
+        alert.success('Your Waste Successfully Saved')
         history.push('/Tips')
     }
 

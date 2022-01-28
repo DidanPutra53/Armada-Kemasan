@@ -24,7 +24,7 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className="button-redeem">
-                    <Link to="/">
+                    <Link to="/Point-Compression">
                         REDEEM POINT
                     </Link>
                 </div>

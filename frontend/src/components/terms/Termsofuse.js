@@ -11,9 +11,9 @@ const Termsofuse = () => {
                 </p>
                 <p>EPA data show that recycling conserves energy and natural resources. For example:</p>
                 <ul>
-                    <li>Recycling one ton of office paper can save the energy equivalent of consuming 322 gallons of gasoline.</li>
-                    <li>Recycling just one ton of aluminum cans conserves more than 152 million Btu, the equivalent of 1,024 gallons of gasoline or 21 barrels of oil consumed.</li>
-                    <li>Plastic bottles are the most recycled plastic product in the United States as of 2018, according to our most recent report. Recycling just 10 plastic bottles saves enough energy to power a laptop for more than 25 hours.</li>
+                    <li><p>Recycling one ton of office paper can save the energy equivalent of consuming 322 gallons of gasoline.</p></li>
+                    <li><p>Recycling just one ton of aluminum cans conserves more than 152 million Btu, the equivalent of 1,024 gallons of gasoline or 21 barrels of oil consumed.</p></li>
+                    <li><p>Plastic bottles are the most recycled plastic product in the United States as of 2018, according to our most recent report. Recycling just 10 plastic bottles saves enough energy to power a laptop for more than 25 hours.</p></li>
                 </ul>
                 <p>When we make new products out of virgin materials, we expend energy to extract and process those materials. This includes burning fossil fuels. However, if we manufacture products using recycled materials, we reduce the need for virgin materials and save the energy required to extract and process them.</p>
                 <p>To estimate how much energy you can save by recycling certain products, EPA has developed a tool called the individual Waste Reduction Model (iWARM). This tool calculates how much energy you save by recycling aluminum cans, glass or plastic bottles, magazines or plastic grocery bags, and shows you how long those savings could power different electrical appliances.</p>

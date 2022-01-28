@@ -1,4 +1,4 @@
-import { article1, article2, article3, article5, article6, article7, map1, map2, map3, map5, map6, map7 } from "../images/artikel-images/index"
+import { article1, article2, article3, article5, article6, article7, map1, map2, map3, map5, map6 } from "../images/artikel-images/index"
 
 const articles = [
     {
@@ -16,9 +16,23 @@ const articles = [
         name: "Dharshani Lahandapura, Chairperson, MEPA"
     },
     {
+        id: "Circulaire Abidjan",
+        images: article7,
+        location: "Colombo, Sri Lanka",
+        category: "Education",
+        title: "Circulaire Abidjan",
+        caption: "The Alliance's Clean4Change programme partnered the Sri Lankan government to clean up 240 km of coastline littered with plastic pellets, or nurdles",
+        overview: "When Sri Lanka's shoreline was polluted by nurdles, we partnered with the Marine Environment Protection Authority of Sri Lanka and BeachTech to ramp up cleanup efforts by supplying 8 cleanup machines, called Sweepy Hydros",
+        imageLocation: map1,
+        b: "Stepping up to help clean Sri Lanka’s coast",
+        p: "When the MV X-Press Pearl cargo ship sank off the coast of Colombo in Sri Lanka, plastic pellets, or nurdles, littered 240 km of shoreline. The lentil-sized nurdles were swept on and off the beach with the waves and were nearly impossible to clean up by hand. The Marine Environmental Protection Authority (MEPA) in Sri Lanka urgently needed equipment to help thousands of volunteers and the military finish the beach cleanup. German company, Beachtech, was able to customise their specialised machines to sieve out the nurdles, while leaving Sri Lanka’s fine white sand on the beach. Enter the ‘Sweepy’. The Alliance donated 8 BeachTech Sweepy Hydros to the Sri Lankan Government in August. Each unit separated nurdles from 4,000 m², or 6 football fields, of beach every hour. This significantly sped up the cleanup process. Fewer people were required to clean the same stretch of beach, and this reduced the risk of COVID-19 infection. Each Sweepy collected up to 250,000 nurdles per day.",
+        quotes: "“I would like to thank the Alliance for their help. They understood the responsibility each of us has when a crisis of this nature happens, because it can be a transboundary issue.”",
+        name: "Dharshani Lahandapura, Chairperson, MEPA"
+    },
+    {
         id: "End Plastic Waste Innovation Platform",
         images: article2,
-        location: "Colombo, Sri Lanka",
+        location: "San Francisco, Paris, Singapore, Shanghai, São Paulo, Johannesburg",
         category: "Education",
         title: "End Plastic Waste Innovation Platform",
         caption: "Ideas come from anywhere in the world. That’s why we partnered with Plug and Play Tech Center in 2019 to develop the End Plastic Waste Innovation Platform—to foster startups from across the plastic value chain, and transform plastic waste management around the world. In February 2020, we kickstarted the first Selection Day with 10 finalists in our inaugural Silicon Valley hub.",
@@ -70,20 +84,6 @@ const articles = [
         p: "CRDC’s innovative technology means their facilities are able to accept hard-to-recycle plastic, including plastics like PVC, polypropylene, and polystyrene, and turn it into their patented product, RESIN8. RESIN8 is a concrete additive that is suitable for structural and non-structural concrete, and can be used in numerous applications, including concrete blocks and pavers, pre-cast concrete, and poured-in-place concrete. Depending on the application, concrete made with RESIN8 can be up to 15% lighter and stronger, with better insulation properties than traditional concrete. With support from the Alliance, CRDC will establish a 14,000 square foot facility in York, Pennsylvania, as well as scale up its existing production plant in Costa Rica, from small-scale commercial production to full-scale commercial production of 90 tons per day when fully operational in 2022. The two facilities will be able to process up to 24,000 metric tons of plastic waste per year combined—waste that would otherwise be sent to landfill or incinerated.",
         quotes: "“CRDC Global is proud to partner with the Alliance to End Plastic Waste to put circularity to work by scaling up the production of RESIN8, a product that has the potential to have a positive impact on both the plastics and the construction industries.”",
         name: "Donald Thomson, Chairman and Founder, CRDC Global"
-    },
-    {
-        id: "Circulaire Abidjan",
-        images: article7,
-        location: "Abidjan, Ivory Coast",
-        category: "Education",
-        title: "Center for Regenerative Design and Collaboration",
-        caption: "Abidjan, Ivory Coast, is home to 4.5 million people that generate around 1.25 million tons of waste a year. Our project, Circulaire Abidjan or Circular Abidjan, aims to make collecting that waste accessible, while creating value for the community.",
-        overview: "COLIBA was one of the applicants from our Plastic Waste Free Cities request for proposal, where we sought out solutions to help cities better manage their plastic waste and implement circular systems. Together, we developed Circulaire Abidjan, where we are supporting them scale their collection of plastic waste by setting around 60 COLIBA containers and 50 collection boxes in TotalEnergies stations around Abidjan, the capital city of the Ivory Coast",
-        imageLocation: map7,
-        b: "Making a difference can begin anywhere",
-        p: "The journey of our partner COLIBA started with a bus ride. Having just left his job as a literature professor, Yaya Kone was in pursuit of a new career in entrepreneurship. The real challenge was deciding on the issue to tackle.That’s when he saw it.Out the windows of the bus from his journey from Ivory Coast to Ghana, mounds of waste littering the roads and blocking streets. He had found his problem—tackling waste management.Together with Genesis Ehimegbe, they run COLIBA, a startup that is introducing a new model of plastic waste collection in the Ivory Coast.",
-        quotes: "“Supporting startups like COLIBA is an important tenet of the Alliance to End Plastic Waste’s beliefs. When we invest in solutions, we don’t just consider the technical aspects, but whether founders have the passion to drive change. COLIBA founders, Yaya and Genesis, have shown that they’re driven by something more than just achieving numbers—they want to see real change in Abidjan, and we want to help support them in making this dream a reality.”",
-        name: "Philippe Montagne, Chief Advisor, Project Implementation, EMEA"
     },
 ]
 

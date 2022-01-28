@@ -22,6 +22,13 @@ import Faq from './components/faq/Faq';
 import Address from './components/address/Address';
 import NearestPoint from './components/nearestpoint/NearestPoint';
 import Tips from './components/tips/Tips';
+import OurStory from './components/ourstory/OurStory';
+import OurParthership from './components/ourpartnership/OurParthership';
+import Subscription from './components/subscription/Subscription';
+import ContacUs from './components/contactus/ContacUs';
+import PointCompression from './components/pointcompression/PointCompression';
+import Redeem from './components/redeem/Redeem';
+import Challenges from './components/challenges/Challenges';
 
 function App() {
 
@@ -44,11 +51,18 @@ function App() {
             <Route path="/Activities" component={Activities} exact />
             <Route path="/Activities/:id" exact component={ActivitiesDetails} />
             <Route path="/Help" component={Faq} />
+            <Route path="/Our-Story" component={OurStory} />
+            <Route path="/Our-Partnership" component={OurParthership} />
+            <Route path="/Subcription" component={Subscription} />
+            <Route path="/Contact-Us" component={ContacUs} />
 
             <ProtectedRoute path="/Profile" component={Profile} />
             <ProtectedRoute path="/Address" component={Address} />
             <ProtectedRoute path="/Nearest-Point" component={NearestPoint} />
             <ProtectedRoute path="/Tips" component={Tips} />
+            <ProtectedRoute path="/Point-Compression" component={PointCompression} />
+            <ProtectedRoute path="/Reedem" component={Redeem} />
+            <ProtectedRoute path="/Challenges" component={Challenges} />
 
             <Route component={NotFound} />
           </Switch>
