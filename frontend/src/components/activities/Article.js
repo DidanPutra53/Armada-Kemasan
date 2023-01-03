@@ -1,0 +1,90 @@
+import { article1, article2, article3, article5, article6, article7, map1, map2, map3, map5, map6 } from "../images/artikel-images/index"
+
+const articles = [
+    {
+        id: "Clean4Change Sri Lanka",
+        images: article1,
+        location: "Colombo, Sri Lanka",
+        category: "Education",
+        title: "Clean4Change Sri Lanka",
+        caption: "The Alliance's Clean4Change programme partnered the Sri Lankan government to clean up 240 km of coastline littered with plastic pellets, or nurdles",
+        overview: "When Sri Lanka's shoreline was polluted by nurdles, we partnered with the Marine Environment Protection Authority of Sri Lanka and BeachTech to ramp up cleanup efforts by supplying 8 cleanup machines, called Sweepy Hydros",
+        imageLocation: map1,
+        b: "Stepping up to help clean Sri Lanka’s coast",
+        p: "When the MV X-Press Pearl cargo ship sank off the coast of Colombo in Sri Lanka, plastic pellets, or nurdles, littered 240 km of shoreline. The lentil-sized nurdles were swept on and off the beach with the waves and were nearly impossible to clean up by hand. The Marine Environmental Protection Authority (MEPA) in Sri Lanka urgently needed equipment to help thousands of volunteers and the military finish the beach cleanup. German company, Beachtech, was able to customise their specialised machines to sieve out the nurdles, while leaving Sri Lanka’s fine white sand on the beach. Enter the ‘Sweepy’. The Alliance donated 8 BeachTech Sweepy Hydros to the Sri Lankan Government in August. Each unit separated nurdles from 4,000 m², or 6 football fields, of beach every hour. This significantly sped up the cleanup process. Fewer people were required to clean the same stretch of beach, and this reduced the risk of COVID-19 infection. Each Sweepy collected up to 250,000 nurdles per day.",
+        quotes: "“I would like to thank the Alliance for their help. They understood the responsibility each of us has when a crisis of this nature happens, because it can be a transboundary issue.”",
+        name: "Dharshani Lahandapura, Chairperson, MEPA"
+    },
+    {
+        id: "Circulaire Abidjan",
+        images: article7,
+        location: "Colombo, Sri Lanka",
+        category: "Education",
+        title: "Circulaire Abidjan",
+        caption: "The Alliance's Clean4Change programme partnered the Sri Lankan government to clean up 240 km of coastline littered with plastic pellets, or nurdles",
+        overview: "When Sri Lanka's shoreline was polluted by nurdles, we partnered with the Marine Environment Protection Authority of Sri Lanka and BeachTech to ramp up cleanup efforts by supplying 8 cleanup machines, called Sweepy Hydros",
+        imageLocation: map1,
+        b: "Stepping up to help clean Sri Lanka’s coast",
+        p: "When the MV X-Press Pearl cargo ship sank off the coast of Colombo in Sri Lanka, plastic pellets, or nurdles, littered 240 km of shoreline. The lentil-sized nurdles were swept on and off the beach with the waves and were nearly impossible to clean up by hand. The Marine Environmental Protection Authority (MEPA) in Sri Lanka urgently needed equipment to help thousands of volunteers and the military finish the beach cleanup. German company, Beachtech, was able to customise their specialised machines to sieve out the nurdles, while leaving Sri Lanka’s fine white sand on the beach. Enter the ‘Sweepy’. The Alliance donated 8 BeachTech Sweepy Hydros to the Sri Lankan Government in August. Each unit separated nurdles from 4,000 m², or 6 football fields, of beach every hour. This significantly sped up the cleanup process. Fewer people were required to clean the same stretch of beach, and this reduced the risk of COVID-19 infection. Each Sweepy collected up to 250,000 nurdles per day.",
+        quotes: "“I would like to thank the Alliance for their help. They understood the responsibility each of us has when a crisis of this nature happens, because it can be a transboundary issue.”",
+        name: "Dharshani Lahandapura, Chairperson, MEPA"
+    },
+    {
+        id: "End Plastic Waste Innovation Platform",
+        images: article2,
+        location: "San Francisco, Paris, Singapore, Shanghai, São Paulo, Johannesburg",
+        category: "Education",
+        title: "End Plastic Waste Innovation Platform",
+        caption: "Ideas come from anywhere in the world. That’s why we partnered with Plug and Play Tech Center in 2019 to develop the End Plastic Waste Innovation Platform—to foster startups from across the plastic value chain, and transform plastic waste management around the world. In February 2020, we kickstarted the first Selection Day with 10 finalists in our inaugural Silicon Valley hub.",
+        overview: "We have attracted over 3,000 startups across 6 hubs—in Silicon Valley, Paris, Singapore, Shanghai, São Paulo, and Johannesburg—with over 100 eventual finalists participating in our accelerator programmes. Over US$50 million dollars have been invested and more than 100 commercial pilots are underway to turn their ideas into sustainable, scalable solutions",
+        imageLocation: map2,
+        b: "Enabling partnerships for innovation",
+        p: "The End Plastic Waste Innovation Platform identifies innovative ideas in the following key areas: Collection, management, and sorting of plastic waste Recycling and processing technologies Extraction and value creation from post-recycled plastics Once identified, the startup finalists from each regional hub participate in a 12-week residency programme that helps them fine-tune their pitching and presentation skills, meet industry experts among our member companies, and get valuable access to potential investors through Plug and Play’s extensive network. The first programme was launched in the San Francisco hub, in the heart of Silicon Valley, where 10 startups were selected from a streamlined list of 50 applicants, followed by the Paris hub programme in January 2020, and the Singapore hub programme in August 2020. Since then, we have launched 3 other hubs in 2021 in Sao Paulo, Brazil; Shanghai, China; and Johannesburg, South Africa, providing startups from these regions with access to world-class resources and expertise through the accelerator platform.",
+        quotes: "“Innovation is at the core of the Alliance. This partnership has a unique approach to identifying and supporting startups and innovations across the globe to fundamentally transform current waste management practices through new recycling technologies and by creating value for recycled plastics.”",
+        name: "Jacob Duer, President and CEO, Alliance to End Plastic Waste"
+    },
+    {
+        id: "Firstar Fiber",
+        images: article3,
+        location: "Nebraska, USA",
+        category: "Education",
+        title: "Firstar Fiber",
+        caption: "Firstar Fiber (Firstar) is a leading provider of recycling services across several Midwestern states, processing and marketing close to 100,000 tons per year of a wide variety of materials, including hard-to-recycle plastics like bags and films.",
+        overview: "A key barrier to improving the circularity of hard-to-recycle plastics is the lack of end markets. We are partnering with Firstar to develop these markets by implementing a new model for recovering, reselling, and remanufacturing hard-to-recycle plastic waste",
+        imageLocation: map3,
+        b: "Improving plastics circularity in the USA",
+        p: "In 2021, we partnered with Firstar to expand their materials recovery facility (MRF) inOmaha, Nebraska, into an integrated recycling complex.Over the next 3 years, we will work together to develop a pre-processing facility whereplastic waste can be sorted and hard-to recycle plastics can be sustainably and economically re-manufactured into marketable feedstocks and goods such as plastic lumber for decking and other non-structural applications. The company also plans to explore the potential of advanced recycling technologies to produce other plastic products from hard-to-recycle plastic waste. The equipment for the first phase of the pre-processing facility is currently being installed and the plant is expected to commence operations in Q1 2022. If successful, this model could be replicated at other recycling facilities across the USA.",
+        quotes: "“The typical waste management system in the USA faces many barriers to recycling and reselling hard-to-recycle plastic waste because of the lack of end markets and the complex steps and partners involved in collecting, sorting, processing, and remanufacturing these plastics. With this project we have the opportunity to bring all of those elements together—literally under one roof—in order to find sustainable solutions and provide value to all plastic waste even those previously destined for the landfill or the environment.”",
+        name: "Dale Gubbels, CEO, Firstar Fiber Corporation",
+    },
+    {
+        id: "Rayong Less-Waste",
+        images: article5,
+        location: "Rayong, Thailand",
+        category: "Education",
+        title: "Rayong Less-Waste",
+        caption: "Rayong Less-Waste was established to improve waste management literacy and recycling rates through a waste management system that encourages the collection and sorting of recyclables in communities.",
+        overview: "The Rayong Less-Waste project aims to implement the Wang Wa model—a framework that enables communities with little to no waste management experience to quickly ramp up their collection and recycling of household waste—in 68 municipalities in the Rayong province of Thailand, where the framework was originally designed.",
+        imageLocation: map5,
+        b: "Reducing waste in communities",
+        p: "Napapat Au-chaeron, affectionately referred to a ‘Apple’ in her community, remembers a time when garbage was overflowing in her hometown. That was until Apple, the leader of Chak Luk Ya community, home to a population of about 2,000, decided to take charge and start their journey towards a “zero-waste” community in 2019. She began by segregating her own waste at home, and found that there were local buyers who were keen to buy recyclables off her, while others benefitted from fertilisers made from organic waste. “People think that everything is garbage,” said Apple, “if we just look at it as one pile of trash, it looks difficult to solve.” She quickly proved that there was value to be unlocked from waste. For instance, when the pandemic struck, she was able to buy surgical masks and cleaning supplies for the community with the money she made from selling waste to recyclers. “We want them to see the waste not just as garbage, but how it can really benefit them. ”Now, Apple works with the Rayong Less-Waste project to educate residents in her neighbourhood and nearby communities, teaching them how to separate their waste into four different streams—organic, recyclable, hazardous and general—and partners communities with recyclers in the area to process their waste, developing micro circular economies in the region. The learning starts early. Apple goes to schools and temples to teach home waste management practices, even going into details about the different types of plastic waste and its associated values. To aid Apple’s education efforts, as well as other community leaders like her, the Alliance helped develop the “Advancing Community Waste Management with the Circular Economy” guidebook. The guidebook includes lessons on sorting waste and recycling, as well as activities to help bring circular economy concepts to life. As of September 2021, the guidebook has been distributed to 20 municipalities and 200 primary schools in Rayong province, with an e-book in Thai and English also available.",
+        quotes: "“We help connect the dots. Some (municipalities) need help learning about plastic circularity and waste separation, some need to be connected to recyclers to buy the offtake, and others need guidance on how best to reach out to the community. For all these, we are there to help them overcome these challenges.”",
+        name: "Somchit Nilthanom, Programme Manager"
+    },
+    {
+        id: "Center for Regenerative Design and Collaboration",
+        images: article6,
+        location: "Pennsylvania, USA & San José, Costa Rica",
+        category: "Education",
+        title: "Center for Regenerative Design and Collaboration",
+        caption: "We are helping the Center for Regenerative Design and Collaboration (CRDC Global) scale up their production plant for RESIN8 in Costa Rica and expand their footprint in North America. RESIN8 is a concrete additive made from hard-to-recycle plastic which has already been used by Habitat for Humanity to build housing in Latin America.",
+        overview: "CRDC aims to end plastic waste through regenerative design. With our support, CRDC plans to turn hard-to-recycle plastic into a concrete additive called RESIN8, to reclaim the value of plastic waste.",
+        imageLocation: map6,
+        b: "Turning hard-to-recycle plastic into concrete products",
+        p: "CRDC’s innovative technology means their facilities are able to accept hard-to-recycle plastic, including plastics like PVC, polypropylene, and polystyrene, and turn it into their patented product, RESIN8. RESIN8 is a concrete additive that is suitable for structural and non-structural concrete, and can be used in numerous applications, including concrete blocks and pavers, pre-cast concrete, and poured-in-place concrete. Depending on the application, concrete made with RESIN8 can be up to 15% lighter and stronger, with better insulation properties than traditional concrete. With support from the Alliance, CRDC will establish a 14,000 square foot facility in York, Pennsylvania, as well as scale up its existing production plant in Costa Rica, from small-scale commercial production to full-scale commercial production of 90 tons per day when fully operational in 2022. The two facilities will be able to process up to 24,000 metric tons of plastic waste per year combined—waste that would otherwise be sent to landfill or incinerated.",
+        quotes: "“CRDC Global is proud to partner with the Alliance to End Plastic Waste to put circularity to work by scaling up the production of RESIN8, a product that has the potential to have a positive impact on both the plastics and the construction industries.”",
+        name: "Donald Thomson, Chairman and Founder, CRDC Global"
+    },
+]
+
+export default articles
