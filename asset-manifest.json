@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Armada-Kemasan/static/css/main.90a17055.css",
-    "main.js": "/Armada-Kemasan/static/js/main.cd7c777f.js",
+    "main.js": "/Armada-Kemasan/static/js/main.aa9c7cc2.js",
     "static/media/plastic-containers-cleaned-before-recycling.webp": "/Armada-Kemasan/static/media/plastic-containers-cleaned-before-recycling.d77881073df57e19fc31.webp",
     "static/media/men-women-help-each-other-collect-garbage (1).webp": "/Armada-Kemasan/static/media/men-women-help-each-other-collect-garbage (1).c1852cf733c339aac698.webp",
     "static/media/hands-cupping-recycle-save-environment-campaign.webp": "/Armada-Kemasan/static/media/hands-cupping-recycle-save-environment-campaign.394a0b1e5ddf7e29c79f.webp",
@@ -50,10 +50,10 @@
     "static/media/download.webp": "/Armada-Kemasan/static/media/download.0e43303cb302841920ab.webp",
     "index.html": "/Armada-Kemasan/index.html",
     "main.90a17055.css.map": "/Armada-Kemasan/static/css/main.90a17055.css.map",
-    "main.cd7c777f.js.map": "/Armada-Kemasan/static/js/main.cd7c777f.js.map"
+    "main.aa9c7cc2.js.map": "/Armada-Kemasan/static/js/main.aa9c7cc2.js.map"
   },
   "entrypoints": [
     "static/css/main.90a17055.css",
-    "static/js/main.cd7c777f.js"
+    "static/js/main.aa9c7cc2.js"
   ]
 }
