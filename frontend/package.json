@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://Didanputra53.github.io/Armada-Kemasan",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -35,6 +36,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -58,5 +61,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://127.0.0.1:4000"
+  "proxy": "http://127.0.0.1:4000",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
