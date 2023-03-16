@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
 import { Provider } from 'react-redux'
 import Store from './store';
@@ -13,10 +14,12 @@ const options = {
 }
 
 ReactDOM.render(
-  <Provider store={Store}>
-    <AlertProvider template={AlertTemplate} {...options}>
-      <App />
-    </AlertProvider>
-  </Provider>,
+  <Router>
+    <Provider store={Store}>
+      <AlertProvider template={AlertTemplate} {...options}>
+        <App />
+      </AlertProvider>
+    </Provider>,
+  </Router>,
   document.getElementById('root')
 );
