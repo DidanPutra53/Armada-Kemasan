@@ -42,7 +42,7 @@ function App() {
         <Header />
         <div className="content">
           <Switch>
-            <Route path="/" component={Home} exact />
+            
             <Route path="/Login" component={Login} />
             <Route path="/Register" component={Register} />
             <Route path="/Shop" component={Shop} />
@@ -55,6 +55,7 @@ function App() {
             <Route path="/Our-Partnership" component={OurParthership} />
             <Route path="/Subcription" component={Subscription} />
             <Route path="/Contact-Us" component={ContacUs} />
+            <Route path="/" component={Home} exact />
 
             <ProtectedRoute path="/Profile" component={Profile} />
             <ProtectedRoute path="/Address" component={Address} />
